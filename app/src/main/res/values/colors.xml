@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Oficial colors -->
+    <color name="green_forte">#398205</color>
+    <color name="green_ultra_forte">#0b5200</color>
+    <color name="green_light">#90db5e</color>
+    <color name="red_ultra_light">#beff8c</color>
+    <color name="blue">#01567d</color>
+    <color name="blue_forte">#002d4f</color>
+    <color name="green">#63b030</color>
+
+    <!-- Transparency colors -->
+    <color name="white_50">#80ffffff</color>
+    <color name="white_40">#66ffffff</color>
+    <color name="white_5">#0Dffffff</color>
+    <color name="black_50">#80000000</color>
+    <color name="black_40">#66000000</color>
+    <color name="black_30">#4D000000</color>
+
+    <!-- general colors -->
+    <color name="white">#ffffff</color>
+    <color name="black">#000000</color>
+    <color name="white_light">#80ffffff</color>
+    <color name="black_light">#80000000</color>
+
+    <!-- colors Flatui -->
+    <color name="flatui_turquoise">#1abc9c</color>
+    <color name="flatui_green_sea">#16a085</color>
+    <color name="flatui_emerald">#2ecc71</color>
+    <color name="flatui_nephritis">#27ae60</color>
+    <color name="flatui_peter_river">#3498db</color>
+    <color name="flatui_belize_hole">#2980b9</color>
+    <color name="flatui_amethyst">#9b59b6</color>
+    <color name="flatui_wisteria">#8e44ad</color>
+    <color name="flatui_wet_asphalt">#34495e</color>
+    <color name="flatui_midnight_blue">#2c3e50</color>
+    <color name="flatui_sun_flower">#f1c40f</color>
+    <color name="flatui_orange">#f39c12</color>
+    <color name="flatui_carrot">#e67e22</color>
+    <color name="flatui_pumpkin">#d35400</color>
+    <color name="flatui_alizarin">#e74c3c</color>
+    <color name="flatui_pomegranate">#c0392b</color>
+    <color name="flatui_clouds">#ecf0f1</color>
+    <color name="flatui_silver">#bdc3c7</color>
+    <color name="flatui_concrete">#95a5a6</color>
+    <color name="flatui_asbestos">#7f8c8d</color>
+</resources>

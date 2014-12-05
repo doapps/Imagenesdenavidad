@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Memes de futbol</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="title_splash">Memes del Futbol</string>
+
+    <!-- Parse Keys -->
+    <string name="application_id">JtVQPJ4fZzTBW1GgmKH2ZVxJq5cORdgJacpqMPA7</string>
+    <string name="client_key">DKMfDjN7WnVB6SbF6a2qvZkTtPKgJui3gobtKuLj</string>
+
+    <!-- Admob Key -->
+    <string name="admob_key">ca-app-pub-8995045147204986/8006531356</string>
+    <string name="admob_interstitial">ca-app-pub-8995045147204986/1959997756</string>
+</resources>
