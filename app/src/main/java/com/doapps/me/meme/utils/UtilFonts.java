@@ -10,4 +10,7 @@ public class UtilFonts {
     public static Typeface setHollyBerry(Context context){
         return Typeface.createFromAsset(context.getAssets(), "fonts/RemachineScript.ttf");
     }
+    public static Typeface setHelveticaThin(Context context){
+        return Typeface.createFromAsset(context.getAssets(), "fonts/Helvetica_Thin.otf");
+    }
 }
