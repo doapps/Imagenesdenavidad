@@ -1,9 +1,7 @@
-package com.doapps.me.meme.application;
+package me.doapps.imagenes.de.navidad.application;
 
-import android.media.MediaMetadata;
-
-import com.doapps.me.meme.R;
-import com.doapps.me.meme.beans.Meme_DTO;
+import me.doapps.imagenes.de.navidad.R;
+import me.doapps.imagenes.de.navidad.beans.Meme_DTO;
 import com.parse.Parse;
 import com.parse.ParseACL;
 import com.parse.ParseObject;

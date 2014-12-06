@@ -1,18 +1,14 @@
-package com.doapps.me.meme.dialogs;
+package me.doapps.imagenes.de.navidad.dialogs;
 
 import android.app.AlertDialog;
-import android.content.ActivityNotFoundException;
 import android.content.Context;
-import android.content.Intent;
-import android.net.Uri;
-import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.widget.Button;
 import android.widget.TextView;
 
-import com.doapps.me.meme.R;
-import com.doapps.me.meme.utils.UtilFonts;
+import me.doapps.imagenes.de.navidad.R;
+import me.doapps.imagenes.de.navidad.utils.UtilFonts;
 
 /**
  * Created by jonathan on 05/12/2014.

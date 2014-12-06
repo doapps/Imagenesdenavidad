@@ -1,18 +1,16 @@
-package com.doapps.me.meme.activities;
+package me.doapps.imagenes.de.navidad.activities;
 
 import android.content.Intent;
 import android.support.v7.app.ActionBarActivity;
 import android.os.Bundle;
 import android.util.Log;
-import android.view.LayoutInflater;
 import android.view.Menu;
 import android.view.MenuItem;
 
-import com.doapps.me.meme.R;
-import com.doapps.me.meme.adapters.Adapter_Image;
-import com.doapps.me.meme.adapters.CustomListAdapter;
-import com.doapps.me.meme.beans.Meme_DTO;
-import com.doapps.me.meme.dialogs.Dialog_Rate;
+import me.doapps.imagenes.de.navidad.R;
+import me.doapps.imagenes.de.navidad.adapters.Adapter_Image;
+import me.doapps.imagenes.de.navidad.beans.Meme_DTO;
+import me.doapps.imagenes.de.navidad.dialogs.Dialog_Rate;
 import com.nirhart.parallaxscroll.views.ParallaxListView;
 import com.parse.FindCallback;
 import com.parse.ParseException;

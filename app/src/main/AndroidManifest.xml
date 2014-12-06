@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.doapps.me.meme" >
+    package="me.doapps.imagenes.de.navidad" >
 
 
     <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
@@ -13,10 +13,10 @@
         android:allowBackup="true"
         android:icon="@drawable/ic_launcher"
         android:label="@string/app_name"
-        android:name=".application.Application"
+        android:name="me.doapps.imagenes.de.navidad.application.Application"
         android:theme="@style/AppTheme" >
         <activity
-            android:name=".activities.SplashActivity"
+            android:name="me.doapps.imagenes.de.navidad.activities.SplashActivity"
             android:label="@string/app_name" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -24,7 +24,7 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".activities.MainActivity"></activity>
+        <activity android:name="me.doapps.imagenes.de.navidad.activities.MainActivity"></activity>
     </application>
 
 </manifest>

@@ -1,6 +1,5 @@
-package com.doapps.me.meme.adapters;
+package me.doapps.imagenes.de.navidad.adapters;
 
-import android.app.ProgressDialog;
 import android.app.WallpaperManager;
 import android.content.Context;
 import android.content.Intent;
@@ -8,9 +7,7 @@ import android.graphics.Bitmap;
 import android.graphics.drawable.BitmapDrawable;
 import android.graphics.drawable.Drawable;
 import android.net.Uri;
-import android.os.AsyncTask;
 import android.os.Environment;
-import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -18,24 +15,16 @@ import android.widget.BaseAdapter;
 import android.widget.ImageView;
 import android.widget.Toast;
 
-import com.doapps.me.meme.R;
-import com.doapps.me.meme.beans.Meme_DTO;
-import com.doapps.me.meme.dialogs.Dialog_Options;
-import com.doapps.me.meme.dialogs.Dialog_Rate;
+import me.doapps.imagenes.de.navidad.R;
+import me.doapps.imagenes.de.navidad.beans.Meme_DTO;
+import me.doapps.imagenes.de.navidad.dialogs.Dialog_Options;
+
 import com.shamanland.fab.FloatingActionButton;
 import com.squareup.picasso.Picasso;
 
-import java.io.BufferedInputStream;
-import java.io.ByteArrayOutputStream;
 import java.io.File;
 import java.io.FileOutputStream;
 import java.io.IOException;
-import java.io.InputStream;
-import java.io.OutputStream;
-import java.net.HttpURLConnection;
-import java.net.MalformedURLException;
-import java.net.URL;
-import java.net.URLConnection;
 import java.util.ArrayList;
 
 /**

@@ -1,4 +1,4 @@
-package com.doapps.me.meme.utils;
+package me.doapps.imagenes.de.navidad.utils;
 
 import android.content.Context;
 import android.graphics.Typeface;

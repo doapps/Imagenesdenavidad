@@ -1,13 +1,12 @@
-package com.doapps.me.meme.adapters;
+package me.doapps.imagenes.de.navidad.adapters;
 
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.BaseAdapter;
 import android.widget.ImageView;
-import android.widget.TextView;
 
-import com.doapps.me.meme.R;
+import me.doapps.imagenes.de.navidad.R;
 
 /**
  * Created by jonathan on 04/12/2014.
