@@ -9,6 +9,7 @@ import android.view.MenuItem;
 
 import me.doapps.imagenes.de.navidad.R;
 import me.doapps.imagenes.de.navidad.adapters.Adapter_Image;
+import me.doapps.imagenes.de.navidad.beans.Image_DTO;
 import me.doapps.imagenes.de.navidad.beans.Meme_DTO;
 import me.doapps.imagenes.de.navidad.dialogs.Dialog_Rate;
 import com.nirhart.parallaxscroll.views.ParallaxListView;
@@ -28,17 +29,17 @@ public class MainActivity extends ActionBarActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        File wallpaperDirectory = new File("/sdcard/memesdefutbol/");
+        File wallpaperDirectory = new File("/sdcard/imagenes_navidad/");
         wallpaperDirectory.mkdirs();
 
         final ParallaxListView listView = (ParallaxListView) findViewById(R.id.list_view);
 
-        final ArrayList<Meme_DTO> temp_meme_dtos = new ArrayList<Meme_DTO>();
+        final ArrayList<Image_DTO> temp_meme_dtos = new ArrayList<Image_DTO>();
         /** parse **/
-        ParseQuery<Meme_DTO> queryRecipes = Meme_DTO.getQuery();
-        queryRecipes.findInBackground(new FindCallback<Meme_DTO>() {
+        ParseQuery<Image_DTO> queryRecipes = Image_DTO.getQuery();
+        queryRecipes.findInBackground(new FindCallback<Image_DTO>() {
             @Override
-            public void done(List<Meme_DTO> meme_dtos, ParseException e) {
+            public void done(List<Image_DTO> meme_dtos, ParseException e) {
                 if (e == null) {
                     for (int i = 0; i < meme_dtos.size(); i++) {
                         Log.e("name", meme_dtos.get(i).getImage_url());

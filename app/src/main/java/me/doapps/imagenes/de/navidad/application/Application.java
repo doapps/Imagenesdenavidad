@@ -1,6 +1,7 @@
 package me.doapps.imagenes.de.navidad.application;
 
 import me.doapps.imagenes.de.navidad.R;
+import me.doapps.imagenes.de.navidad.beans.Image_DTO;
 import me.doapps.imagenes.de.navidad.beans.Meme_DTO;
 import com.parse.Parse;
 import com.parse.ParseACL;
@@ -15,7 +16,7 @@ public class Application extends android.app.Application {
     public void onCreate() {
         super.onCreate();
 
-        ParseObject.registerSubclass(Meme_DTO.class);
+        ParseObject.registerSubclass(Image_DTO.class);
 
         Parse.initialize(this, getResources().getString(R.string.application_id), getResources().getString(R.string.client_key));
 

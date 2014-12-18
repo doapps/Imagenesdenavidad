@@ -16,6 +16,7 @@ import android.widget.ImageView;
 import android.widget.Toast;
 
 import me.doapps.imagenes.de.navidad.R;
+import me.doapps.imagenes.de.navidad.beans.Image_DTO;
 import me.doapps.imagenes.de.navidad.beans.Meme_DTO;
 import me.doapps.imagenes.de.navidad.dialogs.Dialog_Options;
 
@@ -32,10 +33,10 @@ import java.util.ArrayList;
  */
 public class Adapter_Image extends BaseAdapter {
     private Context context;
-    private ArrayList<Meme_DTO> meme_dtos;
+    private ArrayList<Image_DTO> meme_dtos;
     private LayoutInflater inflater;
 
-    public Adapter_Image(Context context, ArrayList<Meme_DTO> meme_dtos) {
+    public Adapter_Image(Context context, ArrayList<Image_DTO> meme_dtos) {
         this.context = context;
         this.meme_dtos = meme_dtos;
         this.inflater = LayoutInflater.from(context);
@@ -59,7 +60,7 @@ public class Adapter_Image extends BaseAdapter {
     @Override
     public View getView(int position, View convertView, ViewGroup parent) {
         Holder holder = null;
-        final Meme_DTO meme_dto = meme_dtos.get(position);
+        final Image_DTO meme_dto = meme_dtos.get(position);
         if (convertView == null) {
             convertView = inflater.inflate(R.layout.item_image, parent, false);
             holder = new Holder();
