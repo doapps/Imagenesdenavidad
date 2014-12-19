@@ -83,7 +83,7 @@ public class Adapter_Image extends BaseAdapter {
                 shareIntent.setAction(Intent.ACTION_SEND);
                 shareIntent.putExtra(Intent.EXTRA_STREAM, uriToImage);
                 shareIntent.setType("image/jpeg");
-                context.startActivity(Intent.createChooser(shareIntent, "Comparte Meme"));
+                context.startActivity(Intent.createChooser(shareIntent, "Comparte Imágen"));
 
             }
         });

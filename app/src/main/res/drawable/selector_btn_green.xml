@@ -14,7 +14,7 @@
             <item android:bottom="5dp">
                 <shape android:shape="rectangle">
                     <corners android:radius="3dp" />
-                    <solid android:color="@color/green_forte" />
+                    <solid android:color="@color/green_christmas_forte" />
                 </shape>
             </item>
         </layer-list>
@@ -26,13 +26,13 @@
             <item>
                 <shape android:shape="rectangle">
                     <corners android:radius="3dp" />
-                    <solid android:color="@color/green_forte" />
+                    <solid android:color="@color/green_christmas_forte" />
                 </shape>
             </item>
             <item android:bottom="3dp">
                 <shape android:shape="rectangle">
                     <corners android:radius="3dp" />
-                    <solid android:color="@color/green" />
+                    <solid android:color="@color/green_christmas" />
                 </shape>
             </item>
         </layer-list>

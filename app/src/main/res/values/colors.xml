@@ -8,6 +8,8 @@
     <color name="blue">#01567d</color>
     <color name="blue_forte">#002d4f</color>
     <color name="green">#63b030</color>
+    <color name="green_christmas">#6dab7f</color>
+    <color name="green_christmas_forte">#407d51</color>
 
     <!-- Transparency colors -->
     <color name="white_50">#80ffffff</color>

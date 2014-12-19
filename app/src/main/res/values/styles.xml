@@ -9,8 +9,8 @@
 
     <!-- My Action Bar Style -->
     <style name="MyActionBar" parent="@style/Widget.AppCompat.Light.ActionBar.Solid.Inverse">
-        <item name="background">@color/green</item>
-        <item name="android:background">@color/green</item>
+        <item name="background">@color/green_christmas</item>
+        <item name="android:background">@color/green_christmas</item>
         <item name="android:titleTextStyle">@style/MyActionBarTitleText</item>
     </style>
     <!-- My ActionBar title text -->
