@@ -23,6 +23,6 @@
     <string name="client_key">DKMfDjN7WnVB6SbF6a2qvZkTtPKgJui3gobtKuLj</string>
 
     <!-- Admob Key -->
-    <string name="admob_key">ca-app-pub-8995045147204986/8006531356</string>
-    <string name="admob_interstitial">ca-app-pub-8995045147204986/1959997756</string>
+    <string name="admob_key">ca-app-pub-3327434500093559/3920508622</string>
+    <string name="admob_interstitial">ca-app-pub-3327434500093559/8490309025</string>
 </resources>

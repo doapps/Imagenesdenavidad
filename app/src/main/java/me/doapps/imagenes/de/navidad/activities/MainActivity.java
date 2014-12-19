@@ -1,6 +1,7 @@
 package me.doapps.imagenes.de.navidad.activities;
 
 import android.content.Intent;
+import android.os.Handler;
 import android.support.v7.app.ActionBarActivity;
 import android.os.Bundle;
 import android.util.Log;
@@ -12,6 +13,9 @@ import me.doapps.imagenes.de.navidad.adapters.Adapter_Image;
 import me.doapps.imagenes.de.navidad.beans.Image_DTO;
 import me.doapps.imagenes.de.navidad.beans.Meme_DTO;
 import me.doapps.imagenes.de.navidad.dialogs.Dialog_Rate;
+
+import com.google.android.gms.ads.AdRequest;
+import com.google.android.gms.ads.InterstitialAd;
 import com.nirhart.parallaxscroll.views.ParallaxListView;
 import com.parse.FindCallback;
 import com.parse.ParseException;
@@ -23,11 +27,14 @@ import java.util.List;
 
 
 public class MainActivity extends ActionBarActivity {
+    private InterstitialAd interstitial;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+
+        loadIntersticial();
 
         File wallpaperDirectory = new File("/sdcard/imagenes_navidad/");
         wallpaperDirectory.mkdirs();
@@ -51,6 +58,16 @@ public class MainActivity extends ActionBarActivity {
                 }
             }
         });
+
+        /** admob **/
+        Handler handler = new Handler();
+        handler.postDelayed(new Runnable() {
+            public void run() {
+                if(getInterstitial().isLoaded()){
+                    getInterstitial().show();
+                }
+            }
+        }, 15000);
     }
 
 
@@ -99,5 +116,17 @@ public class MainActivity extends ActionBarActivity {
                 }
             }
         });
+    }
+
+
+    private void loadIntersticial() {
+        interstitial = new InterstitialAd(this);
+        interstitial.setAdUnitId(getResources().getString(R.string.admob_interstitial));
+        AdRequest adRequest = new AdRequest.Builder().build();
+        interstitial.loadAd(adRequest);
+    }
+
+    public InterstitialAd getInterstitial() {
+        return interstitial;
     }
 }
